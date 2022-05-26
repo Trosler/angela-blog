@@ -1,4 +1,4 @@
-import app as app
+#import app as app
 from flask import Flask, render_template, redirect, url_for, flash, request
 from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
@@ -8,7 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import relationship
 from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
 from forms import CreatePostForm
-from flask_gravatar import Gravatar
+#from flask_gravatar import Gravatar
 
 #Import RegisterForm from forms.py
 from forms import RegisterForm, LoginForm, CommentForm
